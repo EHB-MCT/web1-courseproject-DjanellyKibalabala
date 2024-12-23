@@ -29,6 +29,7 @@ body {
 .navigation a {
 	color: white;
 	font-weight: bold;
+	transition: color 0.4s ease;
 }
 .navigation a:hover {
 	color: #76c7c7;
