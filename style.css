@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
 .hero {
 	background: black;
 	color: white;
@@ -33,6 +34,20 @@ body {
 	color: #76c7c7;
 }
 
+.navigation-toggle {
+	display: none;
+	color: white;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.navigation-menu {
+	display: none;
+}
+
+.navigation.active .navigation-menu {
+	display: block;
+}
 .experience {
 	padding: 32px 16px;
 	background: darkslateblue;
