@@ -82,3 +82,8 @@ body {
 	line-height: 29px;
 	font-size: 18px;
 }
+
+.section {
+	display: flex;
+	padding: 32px 16px;
+}
