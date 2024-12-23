@@ -48,3 +48,14 @@
 .skills h2 {
 	color: #76c7c7;
 }
+
+.skills ul {
+	list-style: circle;
+	padding: 0;
+	margin: 16px auto;
+}
+
+.skills li {
+	line-height: 29px;
+	font-size: 18px;
+}
