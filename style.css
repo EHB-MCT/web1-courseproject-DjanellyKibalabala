@@ -116,8 +116,24 @@ h3 {
 	color: lightgrey;
 	line-height: 26px;
 }
+
+.section-item:hover {
+	animation: venom-animation 1s infinite;
+}
 @media (max-width: 750px) {
 	.section-item {
 		flex: 1 1 90%;
+	}
+}
+
+@keyframes venom-animation {
+	0% {
+		box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+	}
+	50% {
+		box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+	}
+	100% {
+		box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
 	}
 }
