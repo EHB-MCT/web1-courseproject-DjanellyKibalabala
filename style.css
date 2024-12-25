@@ -82,6 +82,17 @@ body {
 	font-size: 16px;
 	line-height: 28px;
 }
+.skill {
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 32px 16px;
+	background-image: url(images/tumblr_0ff1908e0a6fa956aa3e05b3bc6a7ca8_e38df8f0_640.webp);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 20px;
+	color: white;
+}
 .skills {
 	padding: 32px 16px;
 	background: rgb(28, 28, 29);
