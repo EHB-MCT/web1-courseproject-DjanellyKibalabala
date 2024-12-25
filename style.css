@@ -201,8 +201,8 @@ h3 {
 }
 .contact ul {
 	padding: 0px;
+	list-style: none;
 }
-
 .contact ul li {
 	font-size: 15px;
 	line-height: 25px;
