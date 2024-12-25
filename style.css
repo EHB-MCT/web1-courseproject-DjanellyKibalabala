@@ -84,7 +84,7 @@ body {
 }
 .skills {
 	padding: 32px 16px;
-	background: darkslateblue;
+	background: rgb(28, 28, 29);
 	color: white;
 	text-align: center;
 }
@@ -93,7 +93,6 @@ body {
 }
 
 .skills ul {
-	list-style: circle;
 	padding: 0;
 	margin: 16px auto;
 }
