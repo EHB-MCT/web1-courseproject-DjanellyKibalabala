@@ -181,3 +181,30 @@ h3 {
 .about p {
 	text-align: center;
 }
+
+.contact {
+	background: rgb(28, 28, 29);
+	color: white;
+	text-align: center;
+	padding: 32px 16px;
+}
+
+.contact h2 {
+	text-align: center;
+	color: red;
+	margin-bottom: 16px;
+	font-size: 13px;
+}
+
+.contact p {
+	margin-bottom: 16px;
+}
+.contact ul {
+	padding: 0px;
+}
+
+.contact ul li {
+	font-size: 15px;
+	line-height: 25px;
+	margin: 8px;
+}
