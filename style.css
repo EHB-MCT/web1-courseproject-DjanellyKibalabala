@@ -183,10 +183,11 @@ h3 {
 }
 
 .contact {
-	background: rgb(28, 28, 29);
+	background-color: rgb(28, 28, 29);
 	color: white;
 	text-align: center;
 	padding: 32px 16px;
+	display: flex;
 }
 
 .contact h2 {
@@ -198,11 +199,12 @@ h3 {
 
 .contact p {
 	margin-bottom: 16px;
+	text-align: center;
 }
 .contact ul {
 	list-style: none;
 	padding: 0;
-	margin: 16px;
+	margin: 16px auto;
 }
 .contact ul li {
 	font-size: 15px;
